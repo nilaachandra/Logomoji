@@ -51,7 +51,7 @@ const LogoMaker = () => {
       <div className="w-full grid lg:grid-cols-2 grid-cols-1 gap-4 lg:px-16 px-4 bg-[#fcfbe6]">
         <div className="input w-full lg:items-start items-center flex lg:flex-row flex-col lg:gap-8 gap-4">
           <label className="flex w-full flex-col items-center">
-            <span className="text-base font-bold ">Select Your Emoji</span>
+            <span className="text-base font-bold  w-full text-left mb-3">Select Your Emoji</span>
             <EmojiPicker className="mt-3"
               onEmojiClick={(EmojiClickData) => handleEmoji(EmojiClickData)}
             />
